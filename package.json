@@ -1,0 +1,25 @@
+{
+  "name": "readme-enigma",
+  "version": "1.0.0",
+  "description": "generates readme.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umair ali",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairali-bit/readme-enigma.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/umairali-bit/readme-enigma/issues"
+  },
+  "homepage": "https://github.com/umairali-bit/readme-enigma#readme"
+}
