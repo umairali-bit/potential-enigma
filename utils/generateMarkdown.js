@@ -25,9 +25,16 @@ function renderLicenseBadge(license) {
 }
 
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {
+    if (license === 'NO license'){
+        return '' 
+    } else if (license === 'Apache-2.0'){
+        return `https://opensource.org/licenses/Apache-2.0`
+    }
+
+}
 
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
@@ -58,6 +65,7 @@ ${header.contribution}
 
 # License
 ${header.license}
+${renderLicenseLink(header.license)}
 
 # Test
 ${header.test}
@@ -66,6 +74,7 @@ ${header.test}
 For any questions, please feel free to reach out to me at the following:
 
 Github: https://github.com/${header.github}
+
 Email: ${header.email}
 
     
