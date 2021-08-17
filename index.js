@@ -1,26 +1,31 @@
-// // TODO: Include packages needed for this application
+//Include packages needed for this application
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 
 
 
-// // TODO: Create an array of questions for user input
- const questions = [
+//Create an array of questions for user input
+const promptUser = () => {
+  return inquirer.prompt([
+
   {
     type: 'input',
     name: 'title',
-    message: 'What is the title of your project'
+    message: 'What is the title of your project',
+    validate: (value)=>{if(value){return true} else {return "please enter the title"}}
   },
   {
     type: 'input',
     name: 'about',
-    message: 'Please describe your project'
+    message: 'Please describe your project',
+    validate: (value)=>{if(value){return true} else {return "please describe your project"}}
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'How would you install the project'
+    message: 'How would you install the project',
+    
   },
   {
     type: 'input',
@@ -54,27 +59,34 @@ const inquirer = require('inquirer');
     message: 'Please write a test for your application'
   },
 
- ];
+]);
+};
 
-// TODO: Create a function to write README file
- function writeToFile(fileName, data) {   
-   fs.writeFile('readme.md', (fileName,data), err => {
-  if (err) throw err;
+//Create a function to write README file
+
+// const pagemarkDown = generateMarkdown(data);
   
-   console.log('Portfolio complete! Check out index.html to see the output!');
-});}
+//    fs.writeFile('readme.md', pagemarkDown, err => {
+//   if (err) throw err;
+  
+//    console.log('Making Markdown');
+// });
 
 // // TODO: Create a function to initialize app
- function init() {
-   return inquirer.prompt(questions)
-   .then(data => {
-     writeToFile('README.md', generateMarkdown(data));
+  promptUser()
+  .then(answers => {
+    const pagemd = generateMarkdown(answers);
+  fs.writeFile('readme.md', pagemd, err => {
+      if (err) throw new Error(err);
 
-})
- }
+      console.log('Markdown Generated!');
+    });
+  });
+
+
 
 // // Function call to initialize app
- init();
+
 
 
 

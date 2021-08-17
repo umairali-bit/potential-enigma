@@ -20,12 +20,13 @@
  
 
 
-module.exports = data =>{
-console.log(data);
-    return `
-    # ${data.title}  
+module.exports = templateData => {
+const { title, about, ...header } = templateData;
+return `
+# ${templateData.title}  
+# ${header.contribution}
     
-    `;
+`;
   };
 
   
