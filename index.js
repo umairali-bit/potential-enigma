@@ -13,13 +13,13 @@ const promptUser = () => {
       type: 'input',
       name: 'title',
       message: 'What is the title of your project',
-      validate: (value) => { if (value) { return true } else { return "please enter the title" } }
+      validate: (value) => { if (value) { return true } else { return "please enter the title" }}
     },
     {
       type: 'input',
       name: 'about',
       message: 'Please describe your project',
-      validate: (value) => { if (value) { return true } else { return "please describe your project" } }
+      validate: (value) => { if (value) { return true } else { return "please describe your project" }}
     },
     {
       type: 'input',

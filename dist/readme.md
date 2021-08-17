@@ -1,7 +1,7 @@
 
-# wcswc 
+# Readme-Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Description 
- wcwcew
+ Readme-Generator, generates a readme file randomly. Answering a couple pf prompts, it generates a Readme file with all the information about the project. 
 # Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -9,27 +9,27 @@
 * [License](#license)
 
 # Installation 
- dcqwcwa
+ 1. Install npm 2. install inquirer 3. type 'node index' from root directory ofyour project 
 
 # Usage
- wacc
+ n/a
 
 # Credits
-qaax
+Please send me an email if you want to contribute to this project
 
 # License
-No License
-
-
+MIT
+https://opensource.org/licenses/MIT
+https://choosealicense.com/licenses/mit/
 
 # Test
-wacc
+Test different licenses, generate multiple readme's and see if it works perfectly.
 
 # Questions
 For any questions, please feel free to reach out to me at the following:
 
-Github: https://github.com/qdxqxq
+Github: https://github.com/umairali-bit
 
-Email: ewqdqdq
+Email: umairmamoor@gmail.com
 
     
