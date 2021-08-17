@@ -88,8 +88,9 @@ function generateMarkdown(templateData) {
 ${header.contribution}
 
 # License
-${header.license}
+## ${header.license}
 ${renderLicenseLink(header.license)}
+
 ${renderlicenseSection(header.license)}
 
 # Test
