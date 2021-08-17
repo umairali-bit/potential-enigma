@@ -55,10 +55,15 @@ const promptUser = () => {
   },
   {
     type: 'input',
-    name: 'Test',
+    name: 'test',
     message: 'Please write a test for your application'
   },
-
+  {
+    type: 'input',
+    name: 'questions',
+    message: 'Any questions?'
+  },
+  
 ]);
 };
 
