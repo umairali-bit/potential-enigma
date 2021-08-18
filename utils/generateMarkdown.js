@@ -75,10 +75,10 @@ function generateMarkdown(templateData) {
 # Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributions](#contributions)
 * [License](#license)
 * [Tests](#tests)
-* [Questions](#question)
+* [Questions](#questions)
 
 
 # Installation 
@@ -87,7 +87,7 @@ function generateMarkdown(templateData) {
 # Usage
  ${header.usage}
 
-# Credits
+# Contributions
 
 If you want to contribute to this project please reach me at 
 
@@ -95,11 +95,11 @@ ${header.email}
 
 # License
 ## ${header.license}
-${renderLicenseLink(header.license)}
+[Lisence Link](${renderLicenseLink(header.license)})
 
-${renderlicenseSection(header.license)}
+[Lisence Section](${renderlicenseSection(header.license)})
 
-# Test
+# Tests
 ${header.test}
 
 # Questions

@@ -37,7 +37,7 @@ const promptUser = () => {
     {
       type: 'list',
       name: 'license',
-      message: 'Please choose a license for the project (Required)',
+      message: 'Please choose a license for the project: (Required)',
       choices: ['Apache-2.0', 'ISC', 'GPL-3.0', 'MIT', 'No License'],
       validate: (value) => { if (value) { return true } else { return "please choose a license" }}
     },
@@ -62,7 +62,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'test',
-      message: 'Please write a test for your application OR press enter to skip',
+      message: 'Please write a test for your application OR press enter to skip:',
       
     },
 

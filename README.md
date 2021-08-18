@@ -2,7 +2,7 @@
 
     
 # Description 
- Readme-Generator, generates a readme file randomly. Answering a couple pf prompts, it generates a Readme file with all the information about the project.
+ Readme-Generator, generates a readme file randomly. Answering a couple of prompts, it generates a Readme file with all the information regarding the project.
 # Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,19 +10,21 @@
 * [License](#license)
 
 # Installation 
- Install npm 2. install inquirer 3. type 'node index' from root directory ofyour project
+ * Install npm 
+ * install inquirer 
+ * type 'node index' from the root directory ofyour project
 
 # Usage
- will upload the video later
+ [Click here to see the video of this challenge](https://drive.google.com/file/d/1fuWR0Qvj5qFcbQ1smqGNf2Nl7uikS6Tk/view)
 
-# Credits
+# Contribution
 If you want to contribute to the project please contact me at umairmamoor@gmail.com
 
 # License
 ## GPL-3.0
-https://opensource.org/licenses/GPL-3.0
+[License Link](https://opensource.org/licenses/GPL-3.0)
 
-https://choosealicense.com/licenses/gpl-3.0/
+[Lisence Section](https://choosealicense.com/licenses/gpl-3.0/)
 
 # Test
 Test different licenses, generate multiple readme's and see if it works perfectly.
