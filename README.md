@@ -2,7 +2,7 @@
 
     
 # Description 
- Readme-Generator, generates a readme file randomly. Answering a couple of prompts, it generates a Readme file with all the information regarding the project.
+ Readme-Enigma, generates a readme file. Answering a couple of prompts, it generates a Readme file with all the information provided through the prompts.
 # Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
