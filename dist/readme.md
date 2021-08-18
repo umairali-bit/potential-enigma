@@ -1,38 +1,42 @@
 
-# Readme-Generator [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-
-    
+# cwcww [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Description 
- Readme-Generator, generates a readme file randomly. Answering a couple pf prompts, it generates a Readme file with all the information about the project.
+ dwdwdw
 # Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+* [Tests](#tests)
+* [Questions](#question)
+
 
 # Installation 
- Install npm 2. install inquirer 3. type 'node index' from root directory ofyour project
+ ww
 
 # Usage
- will upload the video later
+ cwecew
 
 # Credits
-If you want to contribute to the project please contact me at umairmamoor@gmail.com
+
+If you want to contribute to this project please reach me at 
+
+dw
 
 # License
-## GPL-3.0
-https://opensource.org/licenses/GPL-3.0
+## Apache-2.0
+https://opensource.org/licenses/Apache-2.0
 
-https://choosealicense.com/licenses/gpl-3.0/
+https://choosealicense.com/licenses/apache-2.0/
 
 # Test
-Test different licenses, generate multiple readme's and see if it works perfectly.
+waxcwaccaccdczc
 
 # Questions
 For any questions, please feel free to reach out to me at the following:
 
-Github: https://github.com/umairali-bit
+Github: https://github.com/cwwwxc
 
-Email: umairmamoor@gmail.com
+Email: dw
 
     

@@ -77,6 +77,9 @@ function generateMarkdown(templateData) {
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+* [Tests](#tests)
+* [Questions](#question)
+
 
 # Installation 
  ${header.installation}
@@ -85,7 +88,10 @@ function generateMarkdown(templateData) {
  ${header.usage}
 
 # Credits
-${header.contribution}
+
+If you want to contribute to this project please reach me at 
+
+${header.email}
 
 # License
 ## ${header.license}
